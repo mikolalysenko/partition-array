@@ -1,0 +1,36 @@
+{
+  "name": "partition-array",
+  "version": "1.0.0",
+  "description": "Partitions an array by a predicate",
+  "main": "partition.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/partition-array.git"
+  },
+  "keywords": [
+    "partition",
+    "predicate",
+    "array",
+    "filter",
+    "in",
+    "place"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/partition-array/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/partition-array"
+}
