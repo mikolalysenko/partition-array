@@ -8,8 +8,8 @@ tape('partition-array', function(t) {
   function verifyPartition(array, pred) {
     var origArray = array.slice()
     origArray.sort()
-    for(var lo=0; lo<array.length; ++lo) {
-      for(var hi=lo; hi<array.length; ++hi) {
+    for(var lo=0; lo<=array.length; ++lo) {
+      for(var hi=lo; hi<=array.length; ++hi) {
         var copy = array.slice()
         var mid = partition(copy, pred, lo, hi)
         t.same(copy.slice(0, lo), array.slice(0, lo))
